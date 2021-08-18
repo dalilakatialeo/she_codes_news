@@ -10,5 +10,8 @@ class StoryForm(ModelForm):
         #list of fields to be included in the form
         fields = ['title', 'author', 'pub_date', 'content'] 
         widgets = {
-            'pub_date'
-        }
+            'pub_date': forms.DateInput(format=('%m/%d/%Y'),
+            attrs={"class":"form-control", 
+            "placeholder":"Select a date",
+            "type":"date"})
+}
