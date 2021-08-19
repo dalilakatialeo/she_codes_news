@@ -27,3 +27,9 @@ class AddStoryView(generic.CreateView):
     context_object_name = 'storyForm'
     template_name = 'news/createStory.html'
     success_url = reverse_lazy('news:index') #we use the name we called the path in urlpatterns to get the url path
+
+class UpdateStoryView(generic.UpdateView):
+    form_class = UpdateStoryForm
+    model = NewsStory
+    template_name = 'news/updateStory.html'
+
