@@ -28,8 +28,8 @@ class AddStoryView(generic.CreateView):
     template_name = 'news/createStory.html'
     success_url = reverse_lazy('news:index') #we use the name we called the path in urlpatterns to get the url path
 
-class UpdateStoryView(generic.UpdateView):
-    form_class = UpdateStoryForm
-    model = NewsStory
-    template_name = 'news/updateStory.html'
+# class UpdateStoryView(generic.UpdateView):
+#     form_class = UpdateStoryForm
+#     model = NewsStory
+#     template_name = 'news/updateStory.html'
 
