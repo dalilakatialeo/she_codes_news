@@ -2,8 +2,21 @@
 {% load static %}
     
 {% block content%}
+    {% if request.user.is_authenticated %}
     <a href="{% url 'news:newStory'%}">Write New Story</a>
+    {% else %}
+    <p>Please login to add a story!</p>
+    {% endif %}
     <h2>Latest News</h2>
+    <div id="search">
+        <div id="search_author">
+            <input type="text" placeholder="Search by author...">
+            <button>Go!</button>
+        </div>
+        <div id="search_category">
+            <input type="text" placeholder="Search by category...">
+            <button>Go!</button>
+        </div>
 
     <div id="latest-stories">
         {% if latest_stories %}

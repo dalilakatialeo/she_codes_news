@@ -28,6 +28,10 @@ class AddStoryView(generic.CreateView):
     template_name = 'news/createStory.html'
     success_url = reverse_lazy('news:index') #we use the name we called the path in urlpatterns to get the url path
 
+    def form_valid(self, form): #set author to user logged in
+        form.instance.author = self.request.user
+        return super().form_valid(form) #overriding form_valid which is a generic.createView
+
 # class UpdateStoryView(generic.UpdateView):
 #     form_class = UpdateStoryForm
 #     model = NewsStory

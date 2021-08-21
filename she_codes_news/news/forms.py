@@ -8,7 +8,7 @@ class StoryForm(ModelForm):
         #nested class we want django to infer from
         model = NewsStory
         #list of fields to be included in the form
-        fields = ['title', 'author', 'pub_date', 'content'] 
+        fields = ['title', 'pub_date', 'content'] 
         widgets = {
             'pub_date': forms.DateInput(format=('%m/%d/%Y'),
             attrs={"class":"form-control", 
