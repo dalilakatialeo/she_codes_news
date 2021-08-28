@@ -97,10 +97,10 @@ WSGI_APPLICATION = 'she_codes_news.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dd5198miproe84',
-        'USER': 'gdgwujsbekmxtc',
-        'PASSWORD': '559cd61264d7b99bed3c6ff88f8277fa65146b9e7b598cdf53092f8d7b67a623',
-        'HOST': 'ec2-18-214-238-28.compute-1.amazonaws.com',
+        'NAME': 'dcu22r6bd69cnu',
+        'USER': 'xonrbqtxxtfhmo',
+        'PASSWORD': '510a9e58b53240f98026d9cf9215e0f1ca8ecd804903b2f8fa93ec9827b58efe',
+        'HOST': 'ec2-54-156-60-12.compute-1.amazonaws.com',
         'PORT':  '5432'
     }
 }
