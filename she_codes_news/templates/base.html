@@ -7,7 +7,7 @@
         <title>She Codes News</title>
         <meta name="description" content="">
         <meta name="author" content="Dee">
-    <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap" rel="stylesheet">        
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">        
     <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}"> 
 {% block stylesheets %}        
         <link rel="stylesheet" type="text/css" href="{% static 'news/styles.css' %}">
@@ -16,14 +16,25 @@
 
     <body>
         <header>
-            <div id="header-text">
-                <a id="header-link" href="{% url 'news:index' %}">
-                    <h1>She Codes News</h1>
-                </a>
-            </div>
-            <!-- include nav here -->
             {% include './nav.html' %}
         </header>
+        <div id="header-text">
+            <h1>She Codes News</h1>
+        </div>
+        <div id="new-story">
+            {% if request.user.is_authenticated %}
+                <a class="add-story" href="{% url 'news:newStory'%}">Write New Story</a>
+            {% else %}
+                <p class="add-story" id="unlogged">Please login to add a story!</p>
+            {% endif %}
+        </div>
+        <div id="menu">
+            <a href="{% url 'news:index' %}">LATEST NEWS</a>
+            <a href="">CATS</a>
+            <a href="">DOGS</a>
+        </div>
+
+        
 
         <!-- content blocks here -->
         {% block content %}{% endblock %}
