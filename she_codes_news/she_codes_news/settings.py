@@ -34,7 +34,6 @@ ALLOWED_HOSTS = ['*'] # * means all hosts - in real production we should define 
 # Application definition
 
 INSTALLED_APPS = [
-    'corsheaders',
     'users.apps.UsersConfig',
     'news.apps.NewsConfig',
     'django.contrib.admin',
@@ -52,7 +51,6 @@ LOGIN_REDIRECT_URL = 'news:index' #/news/
 LOGOUT_REDIRECT_URL = 'news:index' #/news/
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
