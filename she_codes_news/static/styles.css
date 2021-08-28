@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
-
 body {
     background-color: #fff;
     color: #000;
@@ -20,18 +18,21 @@ img {
     width: 15px;
     height: 15px;
     filter:none;
+    margin-top: 2%;
 }
 
 h1 {
     color: #8246af;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0;
 }
 
 h2 {
     font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #8246af;
 }
 
 h3 {
@@ -95,38 +96,32 @@ nav a:hover, #menu a:hover {
     text-decoration: underline;
 }
 
-a, p {
+a, p, li {
     font-family: 'Raleway', sans-serif;
     font-size: .8em;
 }
 
-#form-container {
+#login-container, #signup-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto;
     width: 30%;
-    padding: 5%;
-    padding-top: 2%;
+    margin: auto;
+    padding: 2% 5% 3% 5%;
     margin-top: 5%;
+    margin-bottom: 1%;
     border: 2.5px solid #8246af;
     background-color: #f6eaff;
 }
 
-#form-container h2 {
-    text-align: center;
-    color: #8246af;
-    
-}
-
-#form-container p {
+#login-container p, #signup-container p {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-bottom: 2%;
 }
 
-#form-container input {
+#login-container input {
     padding: 2%;
     text-align: center;
     width: 70%;
@@ -134,11 +129,11 @@ a, p {
     margin-top: 2%;
 }
 
-#form-container label {
+#login-container label {
     width: 100%;
 }
 
-#form-container button {
+button {
     width: 40%;
     margin-top: 5%;
     padding: 3%;
@@ -146,8 +141,30 @@ a, p {
     color: #fff;
 }
 
-#button-div {
+.button-div {
     display: flex;
     justify-content: center;
     margin: auto;
+    margin-top: 2%;
+}
+
+#create-account {
+    width: 100%;
+    padding: 10%;
+}
+
+#signup-container form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+#signup-container input {
+    margin: 2% 0 2% 0;
+    padding: 1.5%;
+    text-align: center;
+    font-size: 1.2em;;
 }
