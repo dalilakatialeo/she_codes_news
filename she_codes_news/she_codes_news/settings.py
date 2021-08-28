@@ -87,10 +87,21 @@ WSGI_APPLICATION = 'she_codes_news.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dd5198miproe84',
+        'USER': 'gdgwujsbekmxtc',
+        'PASSWORD': '559cd61264d7b99bed3c6ff88f8277fa65146b9e7b598cdf53092f8d7b67a623',
+        'HOST': 'ec2-18-214-238-28.compute-1.amazonaws.com',
+        'PORT':  '5432'
     }
 }
 
