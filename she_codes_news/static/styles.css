@@ -10,10 +10,6 @@ header {
     border-bottom: 1px solid #fff;
 }
 
-img {
-    filter: grayscale(100%);
-}
-
 .icon {
     width: 15px;
     height: 15px;
