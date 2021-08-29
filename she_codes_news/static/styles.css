@@ -70,6 +70,7 @@ h3 {
 
 #navbar {
     display: flex;
+    align-self: baseline;
     align-items: baseline;
 }
 
@@ -86,6 +87,11 @@ h3 {
     margin-top: 2%;
     padding: .7% 15% .7% 15%;
     padding-right: 15%;
+}
+
+#new-story {
+    position: relative;
+    z-index: 1;
 }
 
 .add-story {
