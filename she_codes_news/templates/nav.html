@@ -8,12 +8,15 @@
                 <a href="/users/{{ user.id }}/">{{ user.username }}'s Profile</a>
             </div>
             <a href="{% url 'logout' %}">Logout</a>
+        </div>
         {% else %}
+         <div id="navbar">
             <div class="login-links">
                 <img class="icon" src="../../static/news/images/user-icon.png">
                 <a href="{% url 'login' %}">Login</a>
             </div>
             <a href="{% url "users:createAccount" %}">Sign up</a>
+        </div>
         {% endif %}
         </div>
     </div>
