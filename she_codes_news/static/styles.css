@@ -125,7 +125,7 @@ a, p, li {
     font-size: .8em;
 }
 
-#login-container, #signup-container {
+#login-container, #signup-container, #new-story-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,14 +138,14 @@ a, p, li {
     background-color: #f6eaff;
 }
 
-#login-container p, #signup-container p {
+#login-container p, #signup-container p, #new-story-container p {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-bottom: 2%;
 }
 
-#login-container input {
+#login-container input, #new-story-container input{
     padding: 2%;
     text-align: center;
     width: 70%;
@@ -157,7 +157,7 @@ a, p, li {
     width: 100%;
 }
 
-button {
+button, #submit {
     width: 40%;
     margin-top: 5%;
     padding: 3%;

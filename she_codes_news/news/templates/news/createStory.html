@@ -1,13 +1,16 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
-<form action="" method="POST">
-    {% csrf_token %} <!-- cross site anti forgery -->
-    {{ form.as_p }} <!-- double curly can host a string -->
-    <input type="submit" value="submit">
-
-</form>
+<div id="new-story-container">
+    <h2>New Story</h2>
+    <form action="" method="POST">
+        {% csrf_token %} <!-- cross site anti forgery -->
+        {{ form.as_p }} <!-- double curly can host a string -->
+        <div class="button-div">
+            <input id= "submit" type="submit" value="Post story!">
+        </div>
+    </form>
+    </div>
 
 
 {% endblock content %}
