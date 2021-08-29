@@ -139,44 +139,6 @@
     "content": "Tart cupcake sugar plum wafer gummi bears tootsie roll lollipop. Brownie pie jelly beans chocolate cake sugar plum dessert soufflΘ donut. Candy brownie jujubes chocolate toffee fruitcake powder candy dragΘe. Caramels caramels marzipan halvah dragΘe bear claw apple pie. Toffee jelly beans dessert chocolate ice cream cotton candy caramels jelly. Sesame snaps cotton candy cotton candy tiramisu. DragΘe cupcake toffee topping. Ice cream sesame snaps chupa chups. Bonbon soufflΘ sweet ice cream chocolate bar cookie. Brownie chocolate caramels pie oat cake pie marshmallow carrot cake chupa chups. SoufflΘ sugar plum sesame snaps lemon drops. Jujubes tart marshmallow.\r\n\r\nCookie brownie dragΘe. Toffee jelly beans jujubes. Jelly beans macaroon marzipan candy canes. Candy candy canes sugar plum jujubes ice cream. Toffee lollipop dessert gingerbread marzipan candy soufflΘ candy canes. Gummi bears chocolate caramels fruitcake ice cream. Tiramisu cake cupcake. Marshmallow cheesecake gummi bears gummies gummies lemon drops. Gummi bears marzipan tootsie roll chupa chups jelly-o brownie jujubes cake marshmallow. Fruitcake marzipan pudding. Apple pie donut cake topping carrot cake. Gingerbread chocolate cake candy pie.\r\n\r\nPie dragΘe icing gummi bears. Cookie liquorice powder sesame snaps jelly-o sesame snaps. Cupcake dragΘe jujubes. SoufflΘ tart marshmallow marshmallow. Cotton candy donut halvah. Icing sweet roll marzipan bonbon croissant candy canes apple pie jelly-o. Tiramisu pastry apple pie. Jelly-o halvah candy canes cake. Sweet ice cream cotton candy icing lollipop gummies icing. Pie donut danish jujubes jelly-o croissant toffee bonbon. Chocolate cake tart fruitcake tiramisu sweet liquorice dessert. Bear claw cake chocolate bar pudding. Jujubes sugar plum icing.\r\n\r\nCotton candy pudding gingerbread liquorice. Chocolate cake biscuit biscuit candy canes. Pie biscuit apple pie fruitcake cotton candy croissant ice cream. Muffin pie ice cream tootsie roll biscuit. Powder halvah pastry toffee chupa chups jujubes gummi bears sugar plum. Sesame snaps cake chocolate bar fruitcake toffee pudding chupa chups cotton candy croissant. Lollipop cake cake. Tootsie roll gingerbread dessert sugar plum gingerbread marshmallow. Chocolate cake jelly beans fruitcake oat cake macaroon tart topping ice cream. Fruitcake sesame snaps ice cream gummi bears powder. Brownie halvah tiramisu tart jelly-o. Donut macaroon chocolate muffin chocolate donut danish. Dessert chocolate biscuit pudding. Sugar plum dragΘe jelly beans muffin cake biscuit jelly beans lemon drops powder.\r\n\r\nGingerbread fruitcake sweet toffee gummi bears gummies oat cake. Chocolate bar chupa chups lollipop tiramisu lemon drops candy candy. Muffin chupa chups sweet lollipop ice cream tiramisu. Jelly beans jujubes cupcake sweet roll tootsie roll donut donut cake biscuit. Danish topping cake topping lemon drops topping. Oat cake chocolate cake tart lemon drops. Tiramisu sesame snaps lemon drops halvah. Wafer dragΘe pastry liquorice dragΘe powder lemon drops. Carrot cake ice cream oat cake. Sugar plum danish halvah powder. Pie gingerbread dessert chocolate cake cotton candy tart. SoufflΘ muffin sweet bear claw halvah apple pie oat cake.",
     "image_url": ""
   }
-},
-{
-  "model": "news.newsstory",
-  "pk": 6,
-  "fields": {
-    "title": "Hello",
-    "author": [
-      "dalila"
-    ],
-    "pub_date": "2021-08-20T16:00:00Z",
-    "content": "This is a test story!",
-    "image_url": ""
-  }
-},
-{
-  "model": "news.newsstory",
-  "pk": 7,
-  "fields": {
-    "title": "Hello",
-    "author": [
-      "Kris"
-    ],
-    "pub_date": "2021-08-23T16:00:00Z",
-    "content": "Hi!",
-    "image_url": ""
-  }
-},
-{
-  "model": "news.newsstory",
-  "pk": 8,
-  "fields": {
-    "title": "Misty the cat",
-    "author": [
-      "Horatio"
-    ],
-    "pub_date": "2021-08-26T16:00:00Z",
-    "content": "Misty is a strange cat. She is sometimes old and frail, sometimes possessed by a demon. She never remembers that she has a tail.",
-    "image_url": ""
-  }
 }
+
 ]

@@ -43,17 +43,39 @@ h3 {
     justify-content: center;
 }
 
-nav {
-    width: 100%;
+#title-block {
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    margin-top: 2%;
+}
+
+#nav-container {
+    width: 98%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: space-between;
+    position: absolute;
+    z-index:1;
+}
+
+#she-codes {
+    width: 15%;
+    justify-content: flex-start;
+}
+
+#she-codes-logo {
+    padding-right: 0; 
+}
+
+#navbar {
+    display: flex;
+    align-items: baseline;
 }
 
 .login-links {
     padding-right: 20px;
+
 }
 
 #menu {

@@ -12,7 +12,12 @@
     <h4>{{ story.author }}</h4>
     
     <div id="story-content">
-        <img src="../static/news/images/{{ story.image_url }}">
+        {% if '<int:pk>/' < 4 %}
+            <img src="../static/news/images/placeholder-{{ position }}.jpg">
+        {% else %}
+            <img src="https://picsum.photos/600">
+        {% endif %}
+
         {{ story.content|linebreaks }}
     </div>
 </div>

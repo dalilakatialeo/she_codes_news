@@ -1,17 +1,22 @@
 <nav>
-    {% if request.user.is_authenticated %}
-    <div class="login-links">
-        <img class="icon" src="../../static/news/images/user-icon.png">
-        <a href="/users/{{ user.id }}/">{{ user.username }}'s Profile</a>
+    <div id="nav-container">
+    <img id="she-codes" src="../../static/news/images/shecodes_logo.png">
+        {% if request.user.is_authenticated %}
+        <div id="navbar">
+            <div class="login-links">
+                <img class="icon" src="../../static/news/images/user-icon.png">
+                <a href="/users/{{ user.id }}/">{{ user.username }}'s Profile</a>
+            </div>
+            <a href="{% url 'logout' %}">Logout</a>
+        {% else %}
+            <div class="login-links">
+                <img class="icon" src="../../static/news/images/user-icon.png">
+                <a href="{% url 'login' %}">Login</a>
+            </div>
+            <a href="{% url "users:createAccount" %}">Sign up</a>
+        {% endif %}
+        </div>
     </div>
-        <a href="{% url 'logout' %}">Logout</a>
-    {% else %}
-    <div class="login-links">
-        <img class="icon" src="../../static/news/images/user-icon.png">
-        <a href="{% url 'login' %}">Login</a>
-    </div>
-    <a href="{% url "users:createAccount" %}">Sign up</a>
-    {% endif %}
 </nav>
 
 
